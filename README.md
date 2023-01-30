@@ -27,7 +27,7 @@ Build out this NFT preview card component and get it looking as close to the des
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Noc662/nft-preview-card-component)
+- Solution URL: [NFT](https://github.com/Noc662/nft-preview-card-component)
 
 ### Built with
 
