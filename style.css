@@ -21,7 +21,6 @@ body {
   font-family: var(--ff-main);
   background: var(--main-BG);
   min-width: 100vh;
-  padding: 1.875rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
