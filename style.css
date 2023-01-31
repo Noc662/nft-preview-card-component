@@ -18,22 +18,22 @@
 }
 
 body {
-Margin: 0 auto;
   font-family: var(--ff-main);
   background: var(--main-BG);
-  min-width: 100vh;
+  min-height: 100vh;
+  padding: 1.875rem;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
 }
 
-main {
-  /*max-width: 375px;*/
-}
-
 .card {
-Width:375px;
+  max-width: 375px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   padding: 1.2rem;
   border-radius: 1rem;
   background: var(--card-BG);
@@ -51,8 +51,10 @@ Width:375px;
   position: absolute;
   z-index: 1;
   background: hsla(178, 100%, 50%, 0.303);
-  height: 45%;
-  width: 22%;
+  top: 3%;
+  bottom: 45%;
+  left: 4.5%;
+  right: 4.5%;
   border-radius: 1rem;
   display: flex;
   flex-direction: row;
@@ -125,11 +127,11 @@ Width:375px;
   border: 0.13rem solid var(--White);
 }
 
-span {
+.span {
   color: var(--White);
 }
 
-span:hover {
+.span:hover {
   color: var(--Cyan);
   cursor: pointer;
 }
@@ -139,6 +141,7 @@ span:hover {
   font-size: 0.8rem;
   text-align: center;
 }
+
 .attribution a {
   color: var(--Cyan);
 }
